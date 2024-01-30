@@ -437,7 +437,7 @@ function sendMail(){
         message : document.getElementById("message").value
     }
 
-    emailjs.send("service_9jif3bn", "template_or2b92n", params).then(function(res){
+    emailjs.send("service_ficyffb", "template_mx02yie", params).then(function(res){
         alert("Successfully sent " + res.status);
     })
 }
